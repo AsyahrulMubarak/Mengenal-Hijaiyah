@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" 
+	id="net.Asyahrul.mengenalhijaiyah" 
+	version="1" android-versionCode="1"
+>
+	<name>Mengenal Hijaiyah</name>
+	<description>game  ini di buat untuk menyelesaikan tugas kuliah</description>
+	<author email="Asyahrul.mubarak07@gmail.com">Asyahrul Mubarak</author>
+
+	
+	<content src="index.html"/>
+	<icon src="icon.png" />
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
+
+	<platform name="android">
+		<allow-intent href="market:*"/>
+		<allow-intent href="http://*/*"/>
+		<allow-intent href="https://*/*"/>
+		<allow-intent href="tel:*"/>
+		<allow-intent href="sms:*"/>
+		<allow-intent href="mailto:*"/>
+		<allow-intent href="geo:*"/>
+
+		<preference name="enabled" value="true"/>
+		<preference name="deployment-target" value="8.0" />
+		<preference name="android-minSdkVersion" value="19" />
+		<preference name="android-targetSdkVersion" value="28" />
+	
+
+	</platform>	
+
+	
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/file" />
+	<preference name="phonegap-version" value="cli-9.0.0" />
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+
+
+	
+
+	
+	<access origin="*" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-media" />
+<!-- 	<plugin name="cordova-plugin-admob-free"> 
+	
+		<variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544~3347511713" /> 
+	</plugin> -->
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
